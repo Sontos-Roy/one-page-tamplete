@@ -16,6 +16,14 @@
   .gallery {
     width: 99%;
   }
+  /* testimonials section start  */
+  .testimonials-slider {
+    padding-top: 50px !important;
+  }
+  .c-indicators {
+    top: 110%;
+  }
+  /* testimonials section end  */
   /* client section start  */
 
   .clients div {

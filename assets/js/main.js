@@ -1,6 +1,7 @@
 function myFunction(x) {
   x.classList.toggle("change");
 }
+AOS.init();
 // progress bar animation
 window.onscroll = function() {scrollFunction()};
 
@@ -10,9 +11,9 @@ function scrollFunction() {
     document.getElementById("progress-bar2").style.width = "90%";
     document.getElementById("progress-bar3").style.width = "65%";
   } else {
-    // document.getElementById("progress-bar1").style.width = "0%";
-    // document.getElementById("progress-bar2").style.width = "0%";
-    // document.getElementById("progress-bar3").style.width = "0%";
+    document.getElementById("progress-bar1").style.width = "0%";
+    document.getElementById("progress-bar2").style.width = "0%";
+    document.getElementById("progress-bar3").style.width = "0%";
   }
 }
 
